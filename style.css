@@ -1,0 +1,114 @@
+/* Bendri stiliai */
+body {
+  background-color: #eef4f9;
+  color: #23364b;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #555;
+  font-size: 34px;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #555;
+  font-size: 19px;
+  text-align: left;
+}
+
+p,
+ul,
+ol {
+  font-size: 18px;
+}
+
+.intro {
+  text-align: center;
+  font-style: italic;
+}
+
+
+/* Visi paveikslėliai turi rėmelį ir suapvalintus kampus. */
+img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #bdd0df;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+/* Klasė leidžia pasirinkti kitokį paveikslėlio plotį. */
+.large {
+  width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+.instrumentai {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
+.pasiruosimas {
+  width: 450px;
+  display: block;
+  margin: 20px auto;
+}
+
+nav {
+  background-color: #555;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  margin: 4px 10px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+    background: #fff;
+    color: #555;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+mark {
+    background-color: #f5dda0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #bdd0df;
+    margin: 24px 0px
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
